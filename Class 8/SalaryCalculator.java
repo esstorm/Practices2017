@@ -15,11 +15,10 @@ public class SalaryCalculator{
       // d.setGrossSalary(300);
       // d.setAditionalNightHours(40);
       // d.setGottenFines(0);
+      d.setAdditionalNightHours(40);
+      d.setGottenFines(0);
       System.out.println(d.getDiscounts());
       System.out.println(d.getGrossWage());
     }catch(Exception r){}
-
-
-
   }
 }
